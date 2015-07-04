@@ -1,0 +1,11 @@
+3
+A  B
+S  J
+A  S
+5
+a c
+c d
+d e
+b e
+a d
+0

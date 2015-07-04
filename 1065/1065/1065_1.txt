@@ -1,0 +1,44 @@
+#define for if(0); else for 
+#include<stdio.h>
+#include<stdlib.h>
+
+#include<string.h>
+#include<string>
+#include<ctype.h>
+
+#include<algorithm>
+#include<math.h>>//有cmath 但是没有math
+
+#include<stack>
+#include<queue>
+#include<vector>// add graghs  
+#include<map>
+
+#include<time.h>
+using namespace std;
+long long a,b,c;
+int n;
+int main(){
+	freopen("in.txt","r",stdin);   
+	//a=(long long)pow(2.0,63)-1;
+	while (scanf("%d",&n)!=EOF){
+		for(int i=1;i<=n;i++){
+			scanf("%lld%lld%lld",&a,&b,&c);
+			printf("Case #%d: ",i);
+			if(a>0&&b>0&&a+b<0){
+				printf("true\n");
+				continue;
+			}
+			if(a<0&&b<0&&a+b>0){
+				printf("false\n");
+			}
+			long long sum=a+b;
+			if(sum>c)
+				printf("true\n");
+			else
+				printf("false\n");
+		}
+	}
+	return 0;
+}
+

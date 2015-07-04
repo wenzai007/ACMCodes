@@ -1,0 +1,43 @@
+#define for if(0); else for 
+#include<stdio.h>
+#include<stdlib.h>
+
+#include<string.h>
+#include<string>
+#include<ctype.h>
+
+#include<algorithm>
+#include<math.h>//有cmath 但是没有math
+
+#include<stack>
+#include<queue>
+#include<vector>// add graghs  
+#include<map>
+
+#include<time.h>
+using namespace std;
+
+int main(){
+	freopen("in.txt","r",stdin);   
+	
+	int a,b,c;
+	double ans;
+	scanf("%d%d%d",&a,&b,&c);
+	double x=0,y=100;
+	double m,aa;
+	while ((y-x)>1e-5){
+		m=(double)(x+y)/2;
+		aa=a;
+		for(int i=1;i<=b;i++){
+			aa=aa*(1+m/100)-c;
+		}
+		if(aa==0)
+			break;
+		else if(aa>0)
+			y=m;
+			x=m;
+	}
+	printf("%lf\n",m);
+	return 0;
+}
+
