@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9E7BABD5-56E0-4253-9543-F440DE97784C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>job_m101</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A46E52FA289EAD5BA372502A06450ADBCAAE7F82</key>
+		<string>https://bitbucket.org/wenzai007/acm.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>job101_m/job_m101.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A46E52FA289EAD5BA372502A06450ADBCAAE7F82</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/wenzai007/acm.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A46E52FA289EAD5BA372502A06450ADBCAAE7F82</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A46E52FA289EAD5BA372502A06450ADBCAAE7F82</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ACMCodes</string>
+		</dict>
+	</array>
+</dict>
+</plist>
