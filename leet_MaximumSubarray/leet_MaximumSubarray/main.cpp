@@ -1,5 +1,5 @@
 
-/*
+
 
 //
 //  main.cpp
@@ -9,6 +9,7 @@
 //  Copyright (c) 2015年 zhangwenze. All rights reserved.
 
 //用的是  动态规划的  方法  时间复杂度是O（n）  
+ // 分析思路见本子  @29
 //
 
 
@@ -65,4 +66,4 @@ int main(int argc, const char * argv[]) {
 }
  
  
- **/
+ //*/
