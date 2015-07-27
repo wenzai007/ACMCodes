@@ -79,7 +79,7 @@
 //    //int n=sss[2];
 //    if (sss[0]==sss[2]) printf("yes\n");
 //  //  Solution s;
-//    int res=minCut(ssss);
+//    int res=minCut(sss);
 //    //printf("asdfasdfasf");
 //    printf("%d\n",res);
 //    return 0;

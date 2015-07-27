@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DE0744841B661AC3005FA14E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE0744831B661AC3005FA14E /* main.cpp */; };
 		DE07448B1B6626AE005FA14E /* why.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE07448A1B6626AE005FA14E /* why.cpp */; };
+		DE07448D1B664CFD005FA14E /* dfs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE07448C1B664CFD005FA14E /* dfs.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		DE0744801B661AC3005FA14E /* leet_Palindrome2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leet_Palindrome2; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0744831B661AC3005FA14E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DE07448A1B6626AE005FA14E /* why.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = why.cpp; sourceTree = "<group>"; };
+		DE07448C1B664CFD005FA14E /* dfs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dfs.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				DE0744831B661AC3005FA14E /* main.cpp */,
+				DE07448C1B664CFD005FA14E /* dfs.cpp */,
 				DE07448A1B6626AE005FA14E /* why.cpp */,
 			);
 			path = leet_Palindrome2;
@@ -121,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE07448D1B664CFD005FA14E /* dfs.cpp in Sources */,
 				DE07448B1B6626AE005FA14E /* why.cpp in Sources */,
 				DE0744841B661AC3005FA14E /* main.cpp in Sources */,
 			);
