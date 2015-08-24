@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEE0EB751B6740D500C475F8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEE0EB741B6740D500C475F8 /* main.cpp */; };
+		DEE0EB7C1B67555E00C475F8 /* cleaner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEE0EB7B1B67555E00C475F8 /* cleaner.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DEE0EB6F1B6740D500C475F8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DEE0EB711B6740D500C475F8 /* leet_Largest Rectangle in Histogram */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leet_Largest Rectangle in Histogram"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE0EB741B6740D500C475F8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DEE0EB7B1B67555E00C475F8 /* cleaner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cleaner.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEE0EB6E1B6740D500C475F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEE0EB681B6740D500C475F8 = {
+			isa = PBXGroup;
+			children = (
+				DEE0EB731B6740D500C475F8 /* leet_Largest Rectangle in Histogram */,
+				DEE0EB721B6740D500C475F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEE0EB721B6740D500C475F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEE0EB711B6740D500C475F8 /* leet_Largest Rectangle in Histogram */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEE0EB731B6740D500C475F8 /* leet_Largest Rectangle in Histogram */ = {
+			isa = PBXGroup;
+			children = (
+				DEE0EB741B6740D500C475F8 /* main.cpp */,
+				DEE0EB7B1B67555E00C475F8 /* cleaner.cpp */,
+			);
+			path = "leet_Largest Rectangle in Histogram";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEE0EB701B6740D500C475F8 /* leet_Largest Rectangle in Histogram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE0EB781B6740D500C475F8 /* Build configuration list for PBXNativeTarget "leet_Largest Rectangle in Histogram" */;
+			buildPhases = (
+				DEE0EB6D1B6740D500C475F8 /* Sources */,
+				DEE0EB6E1B6740D500C475F8 /* Frameworks */,
+				DEE0EB6F1B6740D500C475F8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "leet_Largest Rectangle in Histogram";
+			productName = "leet_Largest Rectangle in Histogram";
+			productReference = DEE0EB711B6740D500C475F8 /* leet_Largest Rectangle in Histogram */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEE0EB691B6740D500C475F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = zhangwenze;
+				TargetAttributes = {
+					DEE0EB701B6740D500C475F8 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = DEE0EB6C1B6740D500C475F8 /* Build configuration list for PBXProject "leet_Largest Rectangle in Histogram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DEE0EB681B6740D500C475F8;
+			productRefGroup = DEE0EB721B6740D500C475F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEE0EB701B6740D500C475F8 /* leet_Largest Rectangle in Histogram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEE0EB6D1B6740D500C475F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE0EB7C1B67555E00C475F8 /* cleaner.cpp in Sources */,
+				DEE0EB751B6740D500C475F8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DEE0EB761B6740D500C475F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DEE0EB771B6740D500C475F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DEE0EB791B6740D500C475F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEE0EB7A1B6740D500C475F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEE0EB6C1B6740D500C475F8 /* Build configuration list for PBXProject "leet_Largest Rectangle in Histogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE0EB761B6740D500C475F8 /* Debug */,
+				DEE0EB771B6740D500C475F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEE0EB781B6740D500C475F8 /* Build configuration list for PBXNativeTarget "leet_Largest Rectangle in Histogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE0EB791B6740D500C475F8 /* Debug */,
+				DEE0EB7A1B6740D500C475F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEE0EB691B6740D500C475F8 /* Project object */;
+}
